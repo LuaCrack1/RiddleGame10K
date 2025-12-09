@@ -5,53 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Game Đố Mẹo 10k</title>
 
-<!-- Favicon / Navicon -->
-<link rel="icon" type="image/png" sizes="32x32" href="https://lh3.googleusercontent.com/rd-gg/AIJ2gl_2ACBOcYJJ11SrWl_f58gsejQJJP-zyc2kyP__fRX0xh0kZaPI3NhroTMh0VM0JIOmordTYgeK5fh4eRQ1hjbul7pu4tlFi40zFKMSjyRjR_h7_37zBOTT0Wy1NacFK9Sso15wHqAVHIgDtH9D7nhHAxG79dd96LqszrfEoVP3DK05E850Irmweus8lJGLUNcIdmzLgOvXUE5uJYHjGfM7_z4MSuwYdKgaj7ixEg-Kkpq4ZWkbrzST8jmfKllc4sOO4_-TmPsfoI5eCNh0083O8ll4r_c-GhVA7OYj-sSCtm5IYUZkQ3IAYuoLVfUz4n4DhuLhh08HMmNwhzuP6srdg3FDglitxsxgsyeRaF4_UKbXfNqMny-WeLruZeFNmrxvjBNqH37IEQxorUPaNWn2aUlZGWyh2_DBDaDgzcTz0dUPVmM4jnXDRrnwVPh8w5tOfw5bhegoJwTfswSh7mKCvSKc2qYh3GKgLaxT2FpM_evagEl_H1hNMkvvmBkkBtIqOK5_Yrm3wu5nOXe47S3JflsMvyzOk3PlOprHNexNwRl8q7bRICevAK8D7gh4b9lnXKh3oRtQoko3hM8joubqPHoQKgbPz64GAjEP9KLyc6od9udv9-lsnyBdKsKve_APEddeGORIS_UH72lzxEW-fqsDiWoZx5ztkYTJ07n6rwUCWKkeRAsx57H2nxo5uft5wN3EKOXc5RaZz72-Et-IJgpZG9Lsx3wqpWE-kCTUWwxIhQziseh89HJ6wK0lNVW5rz-VbVFZE_ho6zHJi1g6Bn0X4iswm4jxmCrhEEsAAbBBEjmazderskN36JSvs9Ne5HzkOqgkuTc91tX36IC_hhepexflEUlWdepKqlvQHPo5saqqo00lRjl54nX84p1AiAVfXreLNG5H2YinBw1ogfon-29v97pr6zXlqzk1955nW8KNxnofZC-9MOsqky-LwaJzOaNfw64DIk5y3elY6d47_tYHLXWa9NbJDYoDsaGvCqCF2jcQYvoaebdw4DqDniodgovbnL81A8NpMukQlT4b82b33zDMOFj90U8b-vZKQq53qPdiVKOiBFmXDnQxP32F15QHUoSj-iEJglHTmC5X9JZjruxEYlrXzX642ENdQ6bzBTWT3mwXo3xDdte3gmTVhoR2lKfWjyn3_OxYa7OltKqWf8eE-TNXADRu_VmCBqGw5egpJF9eiPr6Pb9l3Lfiw9RpmUrUFLzx1DZFGs_XaI3fibSxjKOA68nshylAdd-IgP_gXvQPNYD5WoopxWb7AUQpyKWqEpFDT6AuM56yvJrRZoYO-eNAmlwdKCfhFSPJ-MvgwdZ7iPW4JIHumER68RDlQX4a9vg8zTVfQ94qEXGztmyDMFonO6R2RtUSc7488q=s1024-rj">
+<link rel="icon" type="image/png" sizes="32x32" href="https://lh3.googleusercontent.com/rd-gg/AIJ2gl_2ACBOcYJJ11SrWl_f58gsejQJJP-zyc2kyP__fRX0xh0kZaPI3NhroTMh0VM0JIOmordTYgeK5fh4eRQ1hjbul7pu4tlFi40zFKMSjyRjR_h7_37zBOTT0Wy1NacFK9Sso15wHqAVHIgDtH9D7nhHAxG79dd96LqszrfEoVP3DK05E850Irmweus8lJGLUNcIdmzLgOvXUE5uJYHjGfM7_z4MSuwYdKgaj7ixEg-Kkpq4ZWkbrzST8jmfKllc4sOO4_-TmPsfoI5eCNh0083O8ll4r_c-GhVA7OYj-sSCtm5IYUZkQ3IAYuoLVfUz4n4DhuLhh08HMmNwhzuP6srdg3FDglitxsxgsyeRaF4_UKbXfNqMny-WeLruZeFNmrxvjBNqH37IEQxorUPaNWn2aUlZGWyh2_DBDaDgzcTz0dUPVmM4jnXDRrnwVPh8w5tOfw5bhegoJwTfswSh7mKCvSKc2qYh3GKgLaxT2FpM_evagEl_H1hNMkvvmBkkBtIqOK5_Yrm3wu5nOXe47S3JflsMvyzOk3PlOprHNexNwRl8q7bRICevAK8D7gh4b9lnXKh3oRtQoko3hM8joubqPHoQKgbPz64GAjEP9KLyc6od9udv9-lsnyBdKsKve_APEddeGORIS_UH72lzxEW-fqsDiWoZx5ztkYTJ07n6rwUCWKkeRAsx57H2nxo5uft5wN3EKOXc5RaZz72-Et-IJgpZG9Lsx3wqpWE-kCTUWwxIhQziseh89HJ6K0lNVW5rz-VbVFZE_ho6zHJi1g6Bn0X4iswm4jxmCrhEEsAAbBBEjmazderskN36JSvs9Ne5HzkOqgkuTc91tX36IC_hhepexflEUlWdepKqlvQHPo5saqqo00lRjl54nX84p1AiAVfXreLNG5H2YinBw1ogfon-29v97pr6zXlqzk1955nW8KNxnofZC-9MOsqky-LwaJzOaNfw64DIk5y3elY6d47_tYHLXWa9NbJDYoDsaGvCqCF2jcQYvoaebdw4DqDniodgovbnL81A8NpMukQlT4b82b33zDMOFj90U8b-vZKQq53qPdiVKOiBFmXDnQxP32F15QHUoSj-iEJglHTmC5X9JZjruxEYlrXzX642ENdQ6bzBTWT3mwXo3xDdte3gmTVhoR2lKfWjyn3_OxYa7OltKqWf8eE-TNXADRu_VmCBqGw5egpJF9eiPr6Pb9l3Lfiw9RpmUrUFLzx1DZFGs_XaI3fibSxjKOA68nshylAdd-IgP_gXvQPNYD5WoopxWb7AUQpyKWqEpFDT6AuM56yvJrRZoYO-eNAmlwdKCfhFSPJ-MvgwdZ7iPW4JIHumER68RDlQX4a9vg8zTVfQ94qEXGztmyDMFonO6R2RtUSc7488q=s1024-rj">
 
 <link rel="manifest" href="manifest.json">
 
 <style>
-body {
-  font-family: Arial, sans-serif;
-  background: linear-gradient(120deg, #f6d365, #fda085);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  margin: 0;
-  color: #333;
-  text-align: center;
-}
-.container {
-  background: rgba(255,255,255,0.95);
-  padding: 30px;
-  border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-  max-width: 400px;
-  width: 90%;
-}
-input[type="text"] {
-  padding: 10px;
-  width: 80%;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  margin-top: 10px;
-}
-button {
-  padding: 10px 20px;
-  margin: 10px 5px 0 5px;
-  border: none;
-  border-radius: 8px;
-  background-color: #ff7e5f;
-  color: white;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background 0.3s;
-}
-button:hover { background-color: #eb6750; }
-.message { margin-top: 15px; font-weight: bold; }
-.score { margin-top: 10px; }
+body { font-family: Arial, sans-serif; background: linear-gradient(120deg,#f6d365,#fda085); display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:100vh; margin:0; color:#333; text-align:center; }
+.container { background: rgba(255,255,255,0.95); padding:30px; border-radius:15px; box-shadow:0 8px 20px rgba(0,0,0,0.2); max-width:400px; width:90%; }
+input[type="text"] { padding:10px; width:80%; border-radius:8px; border:1px solid #ccc; margin-top:10px; }
+button { padding:10px 20px; margin:10px 5px 0 5px; border:none; border-radius:8px; background-color:#ff7e5f; color:white; cursor:pointer; font-size:16px; transition:0.3s; }
+button:hover { background-color:#eb6750; }
+.message { margin-top:15px; font-weight:bold; }
+.score { margin-top:10px; }
+#leaderboard { text-align:left; margin-top:20px; }
 </style>
 </head>
 <body>
@@ -65,45 +31,75 @@ button:hover { background-color: #eb6750; }
 </div>
 <div class="message" id="message"></div>
 <div class="score" id="score"></div>
+<div id="leaderboard">
+<h3>🏆 Top 10 điểm cao</h3>
+<ol id="highscores"></ol>
+</div>
 </div>
 
 <script>
-// ==== Tạo 10.000 câu đố hoàn chỉnh ====
-const subjects = ["Cái gì","Ai","Khi nào","Ở đâu"];
-const actions = ["càng nhiều càng nhẹ","luôn chạy nhưng không đi","không nói nhưng trả lời được","càng lấy ra càng lớn","mọi người đều có nhưng ít ai để ý","luôn di chuyển nhưng không đi đâu","càng lấy càng nhiều"];
-const objects = ["?","trên trời?","trong đầu bạn?","trên tường?","trong tay bạn?","mọi nơi?"];
-const answers = ["bóng bay","thời gian","điện thoại","hố","não","tên","hơi thở","đồng hồ","bàn tay","ánh sáng"];
-const hints = ["Thả lên trời","Không ai chạm được","Có thể nghe và nói","Bạn càng đào càng sâu","Ngồi trong đầu bạn","Người khác gọi bạn bằng nó","Luôn theo bạn","Đếm thời gian","Dùng để cầm vật","Có thể soi đường"];
-
-const riddles = [];
-for(let i=0;i<10000;i++){
-  const s = subjects[Math.floor(Math.random()*subjects.length)];
-  const a = actions[Math.floor(Math.random()*actions.length)];
-  const o = objects[Math.floor(Math.random()*objects.length)];
-  const ansIndex = Math.floor(Math.random()*answers.length);
-  riddles.push({q:`${s} ${a} ${o}`,a:answers[ansIndex],hint:hints[ansIndex]});
-}
+// ==== Câu đố chuẩn Google + hợp lý ====
+const riddlesPool = [
+  {q:"Cái gì càng lấy ra càng lớn?", a:"hố", hint:"Bạn càng đào càng sâu"},
+  {q:"Cái gì không nói nhưng trả lời được?", a:"điện thoại", hint:"Bạn có thể gọi nó"},
+  {q:"Cái gì càng nhiều càng nhẹ?", a:"bóng bay", hint:"Thả lên trời"},
+  {q:"Ai càng chạy càng mệt?", a:"con người", hint:"Vận động cơ thể"},
+  {q:"Cái gì bạn có nhưng người khác dùng nhiều hơn bạn?", a:"tên", hint:"Mọi người gọi bạn bằng nó"},
+  {q:"Cái gì luôn theo bạn?", a:"hơi thở", hint:"Luôn bên bạn"},
+  {q:"Cái gì bạn có 2 nhưng chỉ dùng 1 lúc?", a:"bàn tay", hint:"Dùng để cầm vật"},
+  {q:"Cái gì đo thời gian?", a:"đồng hồ", hint:"Đếm thời gian"},
+  {q:"Cái gì soi đường được?", a:"ánh sáng", hint:"Có thể soi đường vào ban đêm"},
+  {q:"Cái gì bạn càng cho đi càng nhiều?", a:"kiến thức", hint:"Giúp người khác sẽ nhận lại"},
+  {q:"Cái gì bạn có thể phá nhưng không thể giữ?", a:"lời hứa", hint:"Đừng quên lời hứa"},
+  {q:"Cái gì bạn có thể nắm nhưng không thể thấy?", a:"không khí", hint:"Bạn thở nó mỗi ngày"}
+];
 
 // ==== Game logic ====
 let score = 0;
+let askedRiddles = new Set();
 let currentRiddle = getRandomRiddle();
-const riddleEl = document.getElementById('riddle');
-const messageEl = document.getElementById('message');
-const scoreEl = document.getElementById('score');
-const answerEl = document.getElementById('answer');
+const riddleEl=document.getElementById('riddle');
+const messageEl=document.getElementById('message');
+const scoreEl=document.getElementById('score');
+const answerEl=document.getElementById('answer');
+const highEl=document.getElementById('highscores');
 
-function getRandomRiddle(){ return riddles[Math.floor(Math.random()*riddles.length)]; }
+function getRandomRiddle(){
+  if(askedRiddles.size>=riddlesPool.length) askedRiddles.clear(); // reset khi hết
+  let r;
+  do { r = riddlesPool[Math.floor(Math.random()*riddlesPool.length)]; } 
+  while(askedRiddles.has(r.q));
+  askedRiddles.add(r.q);
+  return r;
+}
+
 function showRiddle(){ riddleEl.textContent=currentRiddle.q; answerEl.value=""; messageEl.textContent=""; scoreEl.textContent=`Điểm: ${score}`; }
 function checkAnswer(){
   const input=answerEl.value.trim().toLowerCase();
   if(input===currentRiddle.a.toLowerCase()){
     score++; messageEl.style.color="green"; messageEl.textContent="✅ Chính xác!";
-  } else { messageEl.style.color="red"; messageEl.textContent=`❌ Sai rồi! Đáp án: ${currentRiddle.a}`; }
+  } else { messageEl.style.color="red"; messageEl.textContent=`❌ Sai! Đáp án: ${currentRiddle.a}`; }
+  updateHighscores();
   currentRiddle=getRandomRiddle();
   setTimeout(showRiddle,1500);
 }
 function showHint(){ messageEl.style.color="blue"; messageEl.textContent="💡 Hint: "+currentRiddle.hint; }
+
+// ==== LocalStorage bảng xếp hạng ====
+function updateHighscores(){
+  let highs = JSON.parse(localStorage.getItem("riddleHighscores")||"[]");
+  highs.push(score);
+  highs = highs.sort((a,b)=>b-a).slice(0,10);
+  localStorage.setItem("riddleHighscores", JSON.stringify(highs));
+  renderHighscores();
+}
+function renderHighscores(){
+  let highs = JSON.parse(localStorage.getItem("riddleHighscores")||"[]");
+  highEl.innerHTML = highs.map(h=>`<li>${h}</li>`).join("");
+}
+
 showRiddle();
+renderHighscores();
 
 // ==== PWA service worker ====
 if('serviceWorker' in navigator){
